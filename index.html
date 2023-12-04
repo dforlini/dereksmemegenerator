@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dereks Meme Generator!</title>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>The Meme Generator</h1>
+    <div class="container">
+    <form id="memeForm">
+     
+        <label for="topText"></label>
+     <input type="text" id="topText" placeholder="(Optional) What text would you like at the top of the meme?">
+     
+     <label for="bottomText"></label>
+     <input type="text" id="bottomText" placeholder="(Optional) What text do you want on the bottom of the meme?">
+     
+     <label for="imageUrl" ></label>
+     <input type="url" id="imageUrl" placeholder="Enter Image URL" required>
+     
+     <button type="button" id="generateButton">Add meme</button>
+</form>
+<div id="memeContainer"></div>
+
+<button type="button" id="deleteAllButton"> Delete All Memes</button>
+
+
+</div>
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+h1 {
+    text-align: center;
+}
+
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+label {
+    margin-top: 10px;
+}
+input{
+    margin-bottom: 10px;
+    width: 80%;
+}
+#memeContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.meme {
+    
+    margin: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    width: 300px;
+}
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.top-text,
+.bottom-text {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+.top-text{
+    top: 5px;
+}
+.bottom-text{
+    bottom: 5px;
+}
+
+
+
